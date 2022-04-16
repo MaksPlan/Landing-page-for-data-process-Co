@@ -1,5 +1,7 @@
 body {
+
     width: 1440px;
+    height: 5421px;
     background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
 }
 .wrapper {
@@ -9,6 +11,7 @@ body {
 /* top: 100px; */
 padding-left: 170px;
 padding-right: 170px;
+margin: 0 auto;
 
 /* background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%); */
 }
@@ -59,20 +62,37 @@ div .menu_list {
 }
 .main_menu_signin {
 }
-.button_signin {
+button .button_signin {
+width: 157px;
+height: 46px;
 }
-.orange {
-background: #F2994A;
-box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
-border-radius: 3px;
+.orange  {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #F2994A;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+    border-radius: 3px;
 }
 .pale {
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Base */
+
+border: 1px solid #F2994A;
+box-sizing: border-box;
+border-radius: 4px;
 }
 /* Стили для основного раздела на первой странице */
 section {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
-    flex-shrink: 1;
+    flex-direction: row;
 }
 
 .main_section {
@@ -130,10 +150,87 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 
+.link_signin .orange {
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
 .centerbut {
 }
 .Runningman {
-    z-index: 15;
+z-index: 15;
+width: 723.71px;
+height: 579.57px;
+left: 1431.54px;
+top: 319.15px;
+
+/* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 .preview {
+}
+
+.sponsors {
+    width: 1100px;
+    height: 30.03px;
+}
+.list_sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 170px;
+}
+.yourchoise {
+    display: flex;
+    flex: auto;
+}
+.title_yourchoise {
+width: 299px;
+height: 50px;
+left: 595.83px;
+top: 1021px;
+
+text-align: center;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 50px;
+/* identical to box height, or 119% */
+
+text-align: center;
+
+/* T2 */
+
+color: #99EFD0;
+text-align: center;
+}
+
+.subtitle_yourchoise {
+    width: 764.37px;
+height: 22px;
+left: 362.97px;
+top: 1084px;
+
+font-family: 'Gilroy-SemiBold';
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+text-align: center;
+
+/* T1 */
+
+color: #8476AA;
 }
