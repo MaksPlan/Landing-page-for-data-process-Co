@@ -1,0 +1,162 @@
+body {
+width: 1440px;
+/* height: 5421px; */
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 165px;
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+  
+}
+header {
+    display: flex;
+    height: 219px;
+    width: 1105px;
+}
+h1, h2, h3, h4 {
+    font-weight: 700;
+    color: #99EFD0;
+}
+p {
+font-family: 'Gilroy-SemiBold';
+font-size: 18px;
+line-height: 22px;
+color: #8476AA;
+}
+img {
+    opacity: 50%;
+}
+.navigation_container {
+padding: 79px 0px 0px 104px;
+display: flex;
+justify-content: space-between;
+}
+.main_menu {
+ width: 427px;
+height: 36px;
+display: inline-flex;
+justify-content: space-between;
+flex-direction: row;
+padding: 0 430px 0 0;
+}
+.menu_list {
+    list-style-type: none;
+    display: flex;
+justify-content: space-around;
+flex-direction: row;
+}
+.menu_list_item {
+
+}
+.menu_link {
+font-family: 'Gilroy-SemiBold';
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.main_menu_signin {
+width: 244px;
+height: 36px;
+}
+.button_signin {
+width: 112px;
+height: 36px;
+}
+.button_signin {
+ color: #F2994A;
+}
+.link_signin {
+}
+.pale {
+}
+.main_section {
+    height: 710px;
+    width: 1105px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.main_cont {
+    width: 565px;
+    height: 471px;
+    display: flex;
+    flex-direction: row;
+}
+.demonstration {
+    width: 540px;
+    height: 471px;
+    padding-right: 33px;
+}
+.main_title {
+width: 531px;
+height: 150px;
+font-family: 'Inter';
+font-style: normal;
+font-size: 44px;
+line-height: 50px
+}
+
+.title_qoute {
+width: 468px;
+height: 44px;
+font-family: 'Gilroy-SemiBold';
+font-size: 18px;
+line-height: 22px;
+padding: 0;
+}
+.learnmore_button {
+}
+.button_centerbut {
+}
+.learnmore {
+}
+.demo {
+}
+.pictureOne {
+    width: 565px;
+    height: 471px;
+}
+.Runningman {
+}
+.preview {
+}
+.main_preview {
+width: 540px;
+height: 80px;
+}
+.sponsors {
+width: 1105x;
+height: 239px;
+}
+.list_sponsors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 39px;
+    width: 1105px;
+    padding: 200px 0px 103px 0px;
+}
+.spomsor_item {
+}
+.profit {
+}
+.appcues {
+}
+.shipbob {
+}
+.bench {
+}
+.ubbly {
+}
+.demia {
+}
+.yourchoice {
+}
+.title_yourchoice {
+}
+.subtitle_yourchoice {
+}
