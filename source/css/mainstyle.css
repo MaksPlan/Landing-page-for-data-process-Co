@@ -1,13 +1,24 @@
-body {
-width: 1440px;
-/* height: 5421px; */
-}
+
 .wrapper {
-    margin: 0 auto;
-    padding: 0 165px;
-    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
-  
+    background: #0F1145;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 5421px;
 }
+._container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+ 
+.big_first_container {
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+    padding-bottom: 214px;
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     display: flex;
     height: 219px;
@@ -23,9 +34,10 @@ font-size: 18px;
 line-height: 22px;
 color: #8476AA;
 }
-img {
+.opacity {
     opacity: 50%;
 }
+
 .navigation_container {
 padding: 79px 0px 0px 104px;
 display: flex;
@@ -46,7 +58,7 @@ justify-content: space-around;
 flex-direction: row;
 }
 .menu_list_item {
-
+    
 }
 .menu_link {
 font-family: 'Gilroy-SemiBold';
@@ -56,6 +68,7 @@ line-height: 20px;
 
 letter-spacing: 2px;
 text-transform: uppercase;
+color: #B5B5B5;
 }
 .main_menu_signin {
 width: 244px;
@@ -133,30 +146,67 @@ width: 1105x;
 height: 239px;
 }
 .list_sponsors {
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 39px;
     width: 1105px;
-    padding: 200px 0px 103px 0px;
+    padding: 100px 0px 103px 0px;
 }
 .spomsor_item {
 }
-.profit {
-}
-.appcues {
-}
-.shipbob {
-}
-.bench {
-}
-.ubbly {
-}
-.demia {
+.header_YC {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .yourchoice {
 }
 .title_yourchoice {
+padding: 0 457px 0 396px;
+margin: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 50px;
 }
 .subtitle_yourchoice {
+padding: 24px 257px 0 202px;
+margin: 0;
+ font-family: 'Gilroy-SemiBold';
+font-size: 16px;
+line-height: 22px;
+color: #8476AA;
+}
+
+/* Флексы и стили для блока преимуществ */
+
+.column_advanteges {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.element_adv {
+}
+.icon_adv {
+width: 24px;
+height: 24px;
+}
+.header_adv {
+font-family: 'Gilroy-Bold';
+font-size: 18px;
+line-height: 22px;
+width: 218px;
+height: 22px;
+}
+.text_adv {
+width: 247px;
+height: 66px;
+
+font-family: 'Gilroy-SemiBold';
+font-size: 14px;
+line-height: 22px;
 }
