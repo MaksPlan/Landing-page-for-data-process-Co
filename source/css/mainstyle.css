@@ -7,33 +7,57 @@
 }
 ._container {
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1100px;
+}
+.header_container {
+    margin: 0 auto;
 }
 
 .container_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-section .main_section_flex {
+.main_section_flex {
     display: flex;
 justify-content: space-between;
-flex-direction: row;
+flex-direction: column;
+width: 100%;
 }
 .main__block {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main__block_right {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
 .headblock_center {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 .head_title_center {
 
 }
+
+#helpContain {
+display: flex;
+flex-wrap: wrap;
+
+}
 /* Стили для блока навигации */
+@media screen { max-width: 800px;
+    .main_menu {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
 .navigation_container {
     padding: 79px 0px 0px 0px;
     display: flex;
@@ -90,6 +114,10 @@ line-height: 50px;
 color: #99EFD0;
 }
 
+.head_title_center {
+    margin: 0;
+}
+
 .title_discription {
 font-family: 'Gilroy-SemiBold';
 font-size: 18px;
@@ -99,10 +127,11 @@ margin: 0;
 }
  
 .element_header_aqua {
-    font-family: 'Gilroy-Bold';
+font-family: 'Gilroy-Bold';
 font-size: 18px;
 line-height: 22px;
 color: #99EFD0;
+margin: 0 0 0 28px;
 }
 
 .element_p_font {
@@ -110,6 +139,7 @@ color: #99EFD0;
 font-size: 14px;
 line-height: 22px;
 color: #8476AA;
+padding-left: 52px;
 }
 
 .main_font_1520_gilroy {
@@ -166,7 +196,9 @@ color: #F2994A;
 }
 
 
-
+.learnmore_button {
+    margin-top: 40px;
+}
 
 /* Старый код стилей */
 .big_first_container {
@@ -227,13 +259,12 @@ line-height: 50px
     color: linear-gradient(180deg, #A4FFFF 0%, rgba(171, 183, 227, 0) 100%);
 
 }
-.Runningman {
-}
+
 .main_preview {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 63px;
+    margin-top: 60px;
 }
 .preview {
 width: 140px;
@@ -325,11 +356,12 @@ line-height: 22px;
 .inline_row {
 display: inline-flex;
 flex-direction: row;
+justify-content: space-around;
 }
 .inline_block {
     display: flex;
     flex-direction: column;
-    margin: 15px 24px;
+    /* margin: 15px 24px; */
     width: 299px;
 height: 106px;
 }
@@ -347,5 +379,61 @@ height: 106px;
     margin:0 0 0 29px;
 }
 
+.discription_adv {
+    margin-left: 24px;
+}
 
 /* стили для второй секции */
+.inline_block {
+    margin: 50px 0 35px 50px;
+}
+
+.word_orange {
+    color: #F2994A;
+}
+
+.main__block_right {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 100px 0;
+
+}
+.main__block_right > .second_main_block {
+    width: 470px;
+    height: 279px;
+    justify-content: center;
+}
+#sectionTwo {
+    height: 700px;
+    max-width: 1100px;
+    padding-left: 80px;
+}
+
+#sectionFour {
+    height: 700px;
+    max-width: 1100px;
+    padding-left: 80px;
+}
+
+#sectionFive > .main__block_right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.numbers {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+
+
+text-align: center;
+letter-spacing: 0.33px;
+}
+
+.number_element {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
